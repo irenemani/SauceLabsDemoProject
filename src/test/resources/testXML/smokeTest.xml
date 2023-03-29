@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Log-in Input Validation Suite">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.saucedemo.com/"/>
+    <parameter name="UserName" value="standard_user"/>
+    <parameter name="Password" value="secret_sauce"/>
+    <test name="SmokeTest">     <!--Comment Before Method and After Method in CoreShell class.-->
+        <classes>
+            <class name="LogInTest"/>
+        </classes>
+    </test>
+</suite>
