@@ -6,6 +6,5 @@ public class LogInTest extends CoreShell{
         actions.LoginInputTests();
         System.out.println("This is my first Commit");
         System.out.println("This is my Second commit");
-        System.out.println("This is my Fourth commit");
     }
 }
