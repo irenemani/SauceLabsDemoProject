@@ -4,5 +4,6 @@ public class LogInTest extends CoreShell{
     @Test
     public void LoginInputs(){
         actions.LoginInputTests();
+        System.out.println("Hello");
     }
 }
