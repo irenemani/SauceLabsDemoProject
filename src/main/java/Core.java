@@ -9,6 +9,7 @@ public class Core {
     public static WebDriverWait wait;
     public static ElementsPage elementsPage;
     public static Actions builder;
+    public static Actions ;
 
 
 
