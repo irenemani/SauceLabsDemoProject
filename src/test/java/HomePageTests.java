@@ -7,7 +7,7 @@ public class HomePageTests extends CoreShell {
     public void testItemList() {
         actions.NavigationPageItemList();
     }
-    @Test (priority=2, groups = {"Sanity"})
+    @Test (priority=2)
     // To validate items below $10.
     public void testCheckItemPrice() {
         actions.NavigationPageItemsPrice();

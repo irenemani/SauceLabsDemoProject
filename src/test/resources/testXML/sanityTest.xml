@@ -13,6 +13,7 @@
         </groups>
         <classes>
             <class name="HomePageTests"/>
+            <class name="CartTests"/>
         </classes>
     </test>
 </suite>
