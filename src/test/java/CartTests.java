@@ -9,7 +9,7 @@ public class CartTests extends CoreShell {
         actions.AddToCart();
     }
 
-    @Test (priority =2, groups = {"Sanity"})
+    @Test (priority =2)
     // To validate continue shopping functionality.
     public void testContinueShopping() {
         actions.ContinueShopping();
